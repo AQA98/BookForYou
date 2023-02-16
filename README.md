@@ -24,7 +24,7 @@ Using Amazon Book Reviews dataset, recommend the ideal book that has similar att
 A user will define an item profile by specifying their preferences for books. These preferences will be the basis of the user profile that will be created. Using this profile, books with similar attributes will be retrieved from the dataset and returned to the user to find the ideal suggestion. 
 
 ### Collaborative
-A user will define their preference by specifying attributes of a book. Using explicit data gathering, users who have given high ratings to books with similar attributes will be considered as users who share common preferences. Other books that these users have given high ratings will then be recommended to the initial user to find the ideal suggestion.
+A user will define their preference by specifying attributes of a book. Using explicit data gathering, users who have given high ratings to books with similar attributes will be considered as users who share common preferences. The other books that these users have given high ratings will then be recommended to the initial user to find the ideal suggestion.
 
 ## Algorithms
 
