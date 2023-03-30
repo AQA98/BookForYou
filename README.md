@@ -31,5 +31,5 @@ A user will define their preference by specifying attributes of a book. Using ex
 ### K-means clustering
 This algorithm consists of representing the data as a user-item ratings matrix in a vector space, where each item is mapped to a dimension in the space. K-means clustering will then group similar users or items together and the number of clusters k will be picked given the size of the dataset. Each of these clusters will be based on the features that belong to it ex: price and review. In order to make these recommendations, the model will be able to identify which clusters a user belongs to.
 
-### CURE clustering
-Similar to k-means clustering, the data representation will use a user-item ratings matrix. Then, the CURE algorithm will be utilized to group similar items together based on hierarchical clustering. Each cluster will then be represented by a set of representative points according to its distance to the centroid. The model will identify to which clusters the user belongs.
+### ALS (Alternating Least Squares) Algorithm
+The Alternating Least Squares algorithm is a matrix factorization technique used for collaborative filtering in recommendation systems. A user-item matrix is split up into two smaller matrices that represent user and item features. Up until a stable solution is obtained, it alternates between fixing one set of factors and optimising the other set using least-squares regression. This method is helpful for forecasting user-item interactions and making product recommendations to users.
